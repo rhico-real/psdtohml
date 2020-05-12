@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*navbar - start*/
+.navbar{
+  background: #5a6169;
+  width: 100%;
+  height: 12vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inner{
+  width: 75%;
+}
+
+.title{
+  height: 50px;
+  color: white;
+}
+
+.title h1{
+  margin: 0;
+}
+
+.title p{
+  margin-top:-0.05rem;
+  margin-left: 3rem;
+}
+.navigations{
+  position: relative;
+}
+
+.navigations ul{
+  list-style-type: none;
+  margin: -2rem 0 1rem 43rem;
+}
+
+.navigations ul li{
+  display: inline;
+  padding-top:0;
+  padding-right: 2rem;
+}
+
+.navigations li a {
+  color: white;
+}
+ /*navigations - end*/
+
+ /*header - start*/
+.header{
+  background: #8dd6f7;
+}
+
+.header img{
+  margin-top: 1rem;
+  width: 350px;
+}
+
+.header .text{
+  margin-top: -20rem;
+  margin-left: 35rem;
+  width: 50%;
+}
+
+.text h1{
+  font-size: 400%;
+  color: white;
+}
+
+.text p{
+  font-size: 120%;
+  color: darkblue;
+}
+
+.text .btn{
+  margin-left: 12.5rem;
+}
+/*header - end*/
+
+/*content - start*/
+.content .title{
+  margin-top: 3rem;
+  color: gray;
+}
+
+.content .title h1{
+  width: 100%;
+  border-bottom: 2px solid gray;
+  line-height: 0.1em;
+  margin: 5px 0 20px;
+}
+
+.content .title span{
+  background: white;
+  padding: 0 10px;
+}
+.content .row{
+  margin-top: 5rem;
+}
+
+.content .row div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  //border: 1px solid red;
+}
+
+.content .row h1{
+  color: blue;
+}
+/*content - end*/
+
+/*about - start*/
+.about{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #d1d1d1;
+  border: 1px solid #d1d1d1;
+}
+
+.about .title{
+  margin-top: 5rem;
+  color: gray;
+}
+
+.about .title h1{
+  width: 100%;
+  border-bottom: 2px solid gray;
+  line-height: 0.1em;
+  margin: 5px 0 20px;
+}
+
+.about .title span{
+  background: #d1d1d1;
+  padding: 0 10px;
+}
+
+.about .half ul{
+  list-style-type: none;
+  margin-left: -2.5rem;
+}
+
+.about .col-6 h1, .col-6 h2{
+  color: darkblue;
+}
+
+.about .half p{
+  font-size: 110%;
+}
+
+.about .half ul li{
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  color: white;
+  background-color: gray;
+}
+
+.about .row{
+  margin-top: 5rem;
+}
+
+.about img{
+  width: 550px;
+}
+
+.form input, textarea{
+  padding-left: 1rem;
+  color: gray;
+  width: 101%;
+}
+
+.form ul{
+  list-style-type: none;
+  margin-left: -2.3rem;
+}
+
+.form ul li{
+  margin-bottom: 1rem;
+}
+
+.form .btn{
+  position: absolute;
+  z-index: 999;
+  margin-top: -4rem;
+  margin-left:29.5rem;
+}
+/*about - end*/
+
+/*footer - start*/
+.footer{
+  color: gray;
+  margin-top: 2rem;
+}
+
+.footer a{
+  color: gray;
+  text-decoration: underline;
+}
+/*footer - end*/
